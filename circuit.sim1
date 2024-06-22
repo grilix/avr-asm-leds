@@ -1,0 +1,29 @@
+<circuit version="1.1.0-SR0" rev="1917" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="MCU" CircId="tiny85-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-276,148" rotation="0" hflip="1" vflip="1" label="tiny85-1" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Frequency="1 MHz" Program="build/leds.hex" Auto_Load="true" saveEepr="true" Logic_Symbol="false" Rst_enabled="false" Ext_Osc="false" Wdt_enabled="false" Clk_Out="false" varList=",,,R16,R20,PORTB" />
+
+<item itemtype="Led" CircId="Led-2" mainComp="false" Show_id="false" Show_Val="false" Pos="-168,164" rotation="0" hflip="1" vflip="1" label="Led-2" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Color="White" Grounded="true" Threshold="4 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+
+<item itemtype="Led" CircId="Led-5" mainComp="false" Show_id="false" Show_Val="false" Pos="-168,188" rotation="0" hflip="1" vflip="1" label="Led-5" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Color="White" Grounded="true" Threshold="4 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+
+<item itemtype="Led" CircId="Led-6" mainComp="false" Show_id="false" Show_Val="false" Pos="-164,140" rotation="-180" hflip="1" vflip="1" label="Led-6" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Color="White" Grounded="true" Threshold="4 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-11" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-208,120" rotation="0" hflip="1" vflip="1" label="Resistor-11" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Resistance="50 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-13" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-208,164" rotation="0" hflip="1" vflip="1" label="Resistor-13" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Resistance="50 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-14" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-208,188" rotation="0" hflip="1" vflip="1" label="Resistor-14" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Resistance="50 Ω" />
+
+<item itemtype="Connector" uid="Connector-49" startpinid="Resistor-11-lPin" endpinid="tiny85-1-PORTB4" pointList="-224,120,-292,120,-292,172,-284,172" />
+
+<item itemtype="Connector" uid="Connector-50" startpinid="Resistor-13-rPin" endpinid="Led-2-lPin" pointList="-192,164,-184,164" />
+
+<item itemtype="Connector" uid="Connector-51" startpinid="Resistor-13-lPin" endpinid="tiny85-1-PORTB1" pointList="-224,164,-224,172,-236,172" />
+
+<item itemtype="Connector" uid="Connector-52" startpinid="Resistor-14-rPin" endpinid="Led-5-lPin" pointList="-192,188,-184,188" />
+
+<item itemtype="Connector" uid="Connector-53" startpinid="Resistor-14-lPin" endpinid="tiny85-1-PORTB0" pointList="-224,188,-224,180,-236,180" />
+
+<item itemtype="Connector" uid="Connector-59" startpinid="Resistor-11-rPin" endpinid="Led-6-lPin" pointList="-192,120,-144,120,-144,140,-148,140" />
+
+</circuit>
